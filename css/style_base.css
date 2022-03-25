@@ -85,7 +85,7 @@ nav ul li a::before{
     padding: 10px 15px;
     text-decoration: none;
     transition: ease-in;
-    transition-duration: 0.2s;
+    transition-duration: 1.0s;
     /* transition: ; */
 }
 
@@ -96,11 +96,11 @@ nav ul li a::before{
 .social ul li .icon-mail {background: #666666;}
 
 .social ul li a:hover{
-    transform:scaleX(2);
-    background-color:#000;
-    /* transform: ; */
+    width: 60px;
+   display: flex;
+   justify-content: center;
+   background: var(--primary-color); 
 }
-
 
   /* Conteudo */
 .container{
